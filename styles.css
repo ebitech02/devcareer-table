@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 5px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+
+th {
+  background-color: rgba(57, 57, 204, 0.822);
+}
+
+td,
+th {
+  border: 1px solid #1d1d1d;
+  text-align: left;
+  padding: 6px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddddddbd;
+}
